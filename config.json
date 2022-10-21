@@ -1,7 +1,7 @@
 {
     // Token
-    "BOT_TOKEN": "OTY4ODUxMjUzOTgxNTExNzIw.Ymk3Cw.O3ecxeBJ0A1ADT0oX_XEKYKhWCs",
-    // Ip Server Ro Inja Bezarid
+    "BOT_TOKEN": "BOT_TOKEN_HERE",
+    // Server IP and Port
     "SERVER_URL": "0.0.0.0:30120",
     // Logo
     "SERVER_LOGO": "LINK",
