@@ -27,7 +27,7 @@ module.exports = {
 
                     )
                     .setTimestamp(new Date())
-                    .setFooter('Sent By: ' + message.author.tag, `${config.SERVER_LOGO}`);
+                    .setFooter('Send By: ' + message.author.tag, `${config.SERVER_LOGO}`);
                 message.channel.send(pListEmbed);
 
 
@@ -42,7 +42,7 @@ module.exports = {
 
                     )
                     .setTimestamp(new Date())
-                    .setFooter('Sent By: ' + message.author.tag, `${config.SERVER_LOGO}`);
+                    .setFooter('Send By: ' + message.author.tag, `${config.SERVER_LOGO}`);
                 message.channel.send(errpListEmbed);
             })
     },

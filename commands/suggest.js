@@ -26,7 +26,7 @@ module.exports = {
                     .setColor(randomColor)
                     .setTitle("🆕 New Suggestion")
                     .setDescription("```fix\n " + suggestion + "\n```")
-                    .setFooter('Sent By: ' + message.author.tag, `${config.SERVER_LOGO}`)
+                    .setFooter('Send By: ' + message.author.tag, `${config.SERVER_LOGO}`)
                     .setTimestamp(new Date());
                 message.channel
                     .send(embed)

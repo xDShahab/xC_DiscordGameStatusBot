@@ -11,7 +11,7 @@ module.exports = {
 
                 if (result.status === 200) {
                     const onlineEmbed = new Discord.MessageEmbed()
-                        .setColor('#60ff00')
+                        .setColor('#03fc73')
                         .setTitle(config.SERVER_NAME)
                         .setDescription(`**IP:** ${config.SERVER_URL}`)
                         .setThumbnail(config.SERVER_LOGO)
@@ -19,7 +19,7 @@ module.exports = {
 
                         )
                         .setTimestamp(new Date())
-                        .setFooter('Sent By: ' + msg.author.tag, `${config.SERVER_LOGO}`);
+                        .setFooter('Send By: ' + msg.author.tag, `${config.SERVER_LOGO}`);
                     msg.channel.send(onlineEmbed);
                 }
 
@@ -27,7 +27,7 @@ module.exports = {
             })
             .catch(function() {
                 const offlineEmbed = new Discord.MessageEmbed()
-                    .setColor('#fc0303')
+                    .setColor('#fc033d')
                     .setTitle(config.SERVER_NAME)
                     .setDescription('IP: `unavailable`')
                     .setThumbnail(config.SERVER_LOGO)
@@ -35,7 +35,7 @@ module.exports = {
 
                     )
                     .setTimestamp(new Date())
-                    .setFooter('Sent By: ' + msg.author.tag, `${config.SERVER_LOGO}`);
+                    .setFooter('Send By: ' + msg.author.tag, `${config.SERVER_LOGO}`);
                 msg.channel.send(offlineEmbed);
             })
 
