@@ -1,0 +1,18 @@
+{
+    // Token
+    "BOT_TOKEN": "OTY4ODUxMjUzOTgxNTExNzIw.Ymk3Cw.O3ecxeBJ0A1ADT0oX_XEKYKhWCs",
+    // Ip Server Ro Inja Bezarid
+    "SERVER_URL": "0.0.0.0:30120",
+    // Logo
+    "SERVER_LOGO": "LINK",
+    // Name
+    "SERVER_NAME": "⭐ xCoore ⭐",
+    // Prefix
+    "PREFIX": "s!",
+    "CHANNELS_ID": {
+        "SUGGESTIONS": "",
+        "MEMES": "",
+        "ANIMALS": ""
+    }
+
+}
